@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="properties/bootstrap.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        panguine: '#FFF9F4',
+                        heading: '#FA804C',
+                        backGround: '#F1F1F1',
+                        body: 'Bebas Neue cursive',
+                        fontFamily: 'Bebas Neue',
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Penguin Fashion</title>
+</head>
+
+<body>
+    <header class="bg-panguine">
+        <!-- navbar start  -->
+        <section>
+            <nav class="navbar fixed-top navbar-expand-lg">
+                <div class="container">
+                    <div>
+                        <a class="navbar-brand" href="#">
+                            <img src="icons/Logo.png" alt="" width="200" height="50"
+                                class="d-inline-block align-text-top">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container flex mb-10">
+
+
+                <div class="col-lg-6  row  flex-column-reverse flex-lg-row pb-5 ">
+                    <img class="img-fluid" src="images/Group 33092.png" alt="">
+                </div>
+
+
+                <div class="col-lg-6 flex flex-col justify-center ">
+                    <h1 class="text-6xl sm:text-5xl font-bold uppercase text-heading">Nike React</h1>
+                    <h1 class="text-6xl sm:text-5xl font-bold uppercase">Infinity Run 2</h1>
+                    <p class="my-3">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry.</p>
+                    <button class="uppercase font-semibold flex bg-blue-700 px-3 py-2 rounded-md text-white my-3"><svg
+                            xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>Buy Now</button>
+                </div>
+
+
+            </div>
+
+        </section>
+    </header>
+
+
+
+
+    <script src="properties/bootstrap.min.js"></script>
+</body>
+
+</html>
