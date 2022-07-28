@@ -19,14 +19,6 @@
     object-fit: cover;
 }
 
-.course {
-    width: auto;
-}
-
-
-
-
-
 /* responsive for mobile devices */
 @media screen and (max-width:688px) {
     .imgae {
