@@ -1,3 +1,7 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 .carousel-item::before {
     content: "";
     display: block;
@@ -13,4 +17,19 @@
 .cover-img {
     height: 80vh;
     object-fit: cover;
+}
+
+.course {
+    width: auto;
+}
+
+
+
+
+
+/* responsive for mobile devices */
+@media screen and (max-width:688px) {
+    .imgae {
+        width: 100%;
+    }
 }
